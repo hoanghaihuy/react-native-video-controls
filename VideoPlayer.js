@@ -1356,7 +1356,7 @@ const styles = {
         },
         fill: {
             backgroundColor: '#FFF',
-            height: 2,
+            height: 5,
             width: '100%',
         },
         handle: {
@@ -1366,12 +1366,12 @@ const styles = {
             width: 28,
         },
         circle: {
-            borderRadius: 12,
+            borderRadius: 14,
             position: 'relative',
-            top: 9,
+            top: 8,
             left: 6,
-            height: 12,
-            width: 12,
+            height: 14,
+            width: 14,
         },
     }),
 };
