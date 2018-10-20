@@ -1130,6 +1130,7 @@ export default class VideoPlayer extends Component {
                 activeOpacity={1}
                 style={{height: HEIGHT, width: windowSize.width, position: 'absolute', zIndex: 100}}
             >
+                    {this.renderLoader()}
             </TouchableOpacity>
                 <View style={[styles.player.container, this.styles.containerStyle]}>
                     <Video
@@ -1150,7 +1151,6 @@ export default class VideoPlayer extends Component {
                     />
                     {this.renderError()}
                     {this.renderTopControls()}
-                    {this.renderLoader()}
                     {this.renderBottomControls()}
                 </View>
             </View>
